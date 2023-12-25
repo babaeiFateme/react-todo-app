@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "JosefinSans";
+    src: url("../fonts/Josefin_Sans/JosefinSans-Regular.ttf");
+}
+body > #root > div {
+    /* height: 100vh; */
+
+    /* min-height: 100%;
+    background-image: url("../../img/Group\ 2dgd.png");
+    background-size: cover !important;
+    background-position: static; */
+    /* background-position: top center; */
+}
+body {
+    min-height: 100%;
+    /* background-image: url("../../img/Group\ 2dgd.png"); */
+    background-size: cover !important;
+    background-position: static;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   
+}
+input {
+    /* background: rgba(255, 255, 255, 0.2); */
+    /* box-shadow: -5px 6px 28px rgba(0, 0, 0, 0.12); */
+    /* backdrop-filter: blur(3px); */
+    color: #000;
+}
+.form {
+    width: 100%;
+}
+.card-item {
+    padding: 10px;
+    color: #000;
+}
+html,
+body {
+    height: 100%;
+
+    /* background-color: #5d2de0; */
+}
